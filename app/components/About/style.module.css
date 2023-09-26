@@ -1,0 +1,103 @@
+.aboutContainer{
+    margin: 50px 20px;
+    padding: 20px;
+    position: relative;
+    /* background-color: #D0E9EE; */
+    /* box-shadow:0px 15px 10px rgba(0,0,0,0.15); */
+    box-shadow: 0px 10px 25px rgb(206 206 206 / 50%);
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.about_container_h2{
+    margin: 10px 0;
+    /* background-color: #D0E9EE; */
+
+}
+.about_container_h2::after{
+    content: '';
+    margin-left: 5px;
+    margin-top: 7px;
+    width: 150px;
+    height: 7px;
+    border-radius: 20px;
+    display: block;
+    background-color: #1976d2;
+}
+.about_inner_container{
+    display: flex;
+
+}
+.about_profile_left{
+    flex: 40% 1;
+    display: flex;
+    /* background-color: #D0E9EE; */
+    flex-direction: column;
+    align-items: center;
+}
+.about_profile_left_content{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.about_profile_left_content h2:first-of-type{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.about_profile_left_img{
+    border-radius: 50%;
+    overflow: hidden;
+}
+.about_profile_left_img>img{
+    object-fit: cover;
+}
+.about_profile_right{
+    flex: 60%;
+    margin-left: 10px;
+
+}
+.about_profile_button{
+    width: 100px;
+    height: 40px;
+    margin: auto 3px;
+
+}
+.about_us_content{
+    padding: 5px;
+    margin-top: 20px
+}
+.extendtext{
+    color: gray;
+    cursor: pointer;
+}
+.background{
+    /* background: url('/images/Joseph_Digital_Logo (2) 2.png'); */
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    background-color: #b7b7b7;
+    opacity: 0.3;
+    border-radius: 50%;
+    top: -300px;
+    right: -300px;
+}
+.about_us_content>h1{
+    z-index: 5;
+}
+.backgroundBottom{
+    /* background: url('/images/Joseph_Digital_Logo (2) 2.png'); */
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    background-color: #b7b7b7;
+    opacity: 0.3;
+    border-radius: 50%;
+    bottom: -54%;
+    left: -12%;
+}
+
+@media only screen and (max-width:600px){
+    .about_inner_container{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,28 @@
+.menuitem_container{
+    /* display: none; */
+    position: fixed;
+    width: 50vw;
+    height:max-content;
+    top: 100px;
+    /* top:-90%; */
+    right: -90%;
+    z-index: 9999;
+    font-weight: bold;
+    background-color: #fff;
+    color: #000;
+    list-style: none;
+    transition: right 1.5s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menuitem_list{
+    font-size: 20px;
+    margin: 25px auto;
+}
+@media only screen  and (max-width:600px){
+    .menuitem_container_active{
+        display: flex;
+        right:0;
+    }
+}
