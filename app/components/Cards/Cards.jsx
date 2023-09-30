@@ -14,7 +14,7 @@ function Cards() {
       para:`It's a past time learning of 3point light as second language
       Colors , lighting and patterns elegance, expressiveness and a sense of humor, photoshoot are one of my favourite thing to do`,
       hashtag:'#neofilmschool #g1.d.souza',
-      imgUrl:`/images/2 (2).jpg`,
+      imgUrl:`/images/card2.jpg`,
       altImg:'g1 d souza neofilmschool'
 
     }

@@ -38,6 +38,14 @@
     margin-top: 10px;
     margin-bottom: 20px;
     text-align: center;
+    line-height: 22px;
+}
+.about_profile_left_content>h2:nth-child(2){
+    font-size: 14px;
+}
+.about_profile_left_content>h3:nth-child(1){
+    font-size: 13px;
+    color: #808080a6;
 }
 .about_profile_left_content h2:first-of-type{
     font-size: 20px;
@@ -54,6 +62,7 @@
 .about_profile_right{
     flex: 60%;
     margin-left: 10px;
+    z-index: 999;
 
 }
 .about_profile_button{
@@ -99,5 +108,17 @@
 @media only screen and (max-width:600px){
     .about_inner_container{
         flex-direction: column;
+    }
+    .background{
+        top: auto;
+        bottom: -300px;
+    }
+    .aboutContainer{
+        margin: 30px 10px;
+    }
+    .about_profile_left_img>img{
+        width: 300px;
+        height: 300px;
+
     }
 }

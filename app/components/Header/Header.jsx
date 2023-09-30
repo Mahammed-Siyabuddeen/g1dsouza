@@ -13,7 +13,7 @@ function Header() {
           setClose(true)
         }
       }
-    },[close,onscroll])
+    },[close])
       
   return (
     <div className={style.headerContainer}>
@@ -24,6 +24,8 @@ function Header() {
           <div className={style.HomeNavbarLink}><h3><Link href={'/about'}>ABOUT</Link></h3></div>
           <div className={style.HomeNavbarLink}><h3><Link href={'/services'}>SERVICES</Link></h3></div>
           <div className={style.HomeNavbarLink}><h3><Link href={'/contact'}>CONTACT</Link></h3></div>
+          <div className={style.HomeNavbarLink}><h3><Link href={'/portfolio'}>PORTFOLIO</Link></h3></div>
+
 
         </div>
       </div>

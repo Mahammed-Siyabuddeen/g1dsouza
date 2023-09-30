@@ -6,6 +6,7 @@ import Category from './components/Category/Category'
 import Contact from './components/Contact/Contact'
 import Drive from './components/Drive/Drive'
 import Footer from './components/footer/Footer'
+import Frame from './components/Frame/Frame'
 import Header from './components/Header/Header'
 import Video from './components/Video/Video'
 import styles from './page.module.css'
@@ -20,6 +21,7 @@ export default function Home() {
       <Category />
       <Contact />
       <Drive />
+      <Frame/>
     </>
   )
 }

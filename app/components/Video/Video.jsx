@@ -6,24 +6,36 @@ function Video() {
 
   const videoArray = [
     {
-      src: 'https://www.youtube.com/embed/xzR0bnjoNHc?si=Da6v_vHikAAudWrn&amp;controls=0',
-      title: 'wedding hightlights manglore'
+      src: 'https://www.youtube.com/embed/WhkZB1ZGQlg?si=l11-MTTmle72mRHH&amp;controls=0',
+      title: 'joseph digital studio nellyadi (reopening)'
     },
     {
-      src: 'https://www.youtube.com/embed/0oDSCq9aU0Q?si=61ZO9LpeN7GdE208&amp;controls=0',
-      title: 'wedding of sangeetha weds chethan'
-    },
-    {
-      src: 'https://www.youtube.com/embed/Wfwq40mVkSg?si=VdDEb3acX1eecj_8&amp;controls=0',
-      tilte: 'Baptism of riyan santhosh jhon'
+      src: 'https://www.youtube.com/embed/WxjJFaqDFcQ?si=y2KDphNtXtWLOclC&amp;controls=0',
+      title: 'BAPTISM OF EVANIA SHYJU'
     },
     {
       src: 'https://www.youtube.com/embed/Ki0DmqDzFzA?si=Rxs1jrA1mIYn_0kJ&amp;controls=0',
-      title: 'Christian wedding highlights manglore'
+      title: 'Stefanos Mathew BAPTISM '
     },
     {
-      src: 'https://www.youtube.com/embed/KYWRAJORmp4?si=sUfZhcJ8xD1VHdsr&amp;controls=0',
+      src: 'https://www.youtube.com/embed/KQIMavVohpM?si=5EaBYL2Pr9u3E1C3&amp;controls=0',
       title: 'funeral ceremony '
+    },
+    {
+      src:'https://www.youtube.com/embed/J8zr4zG-FsI?si=fMnA7hqYPAVzdmo4&amp;controls=0',
+      title: 'HOUSE WARMING highlights '
+    },
+    {
+      src:'https://www.youtube.com/embed/5lWTcROoI2c?si=coJvp-6JBT3H8jDa&amp;controls=0',
+      title: 'Engagement highlights '
+    },
+    {
+      src:'https://www.youtube.com/embed/Ki0DmqDzFzA?si=J9zFS-MFHR_yd0lv&amp;controls=0',
+      title: 'Christian wedding highlights manglore '
+    },
+    {
+      src:'https://www.youtube.com/embed/Wfwq40mVkSg?si=x3C94d99bJgGa9uc&amp;controls=0',
+      title: 'Baptism of riyan santhosh john'
     },
 
   ]
@@ -42,7 +54,7 @@ function Video() {
       <div>
         <div className={style.roundDiv}>
           {
-            Array.from({ length: 5 }).map((item, index) => (
+            Array.from({ length: 8}).map((item, index) => (
               <div onClick={() => changeVideo(index)} key={index} className={`${style.round} ${slideIndex === index + 1 ? style.round_active : ''}`}></div>
             ))
           }
