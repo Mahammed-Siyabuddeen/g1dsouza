@@ -33,7 +33,7 @@ function Banner() {
         {
           imagesArray.map(({ src, title }, index) => (
             <div key={index} className={`${style.bannerImage} ${slideIndex == index + 1 ? style.bannerImageActive : ''}`}>
-              <Image fill={true} src={src} alt={title} sizes='(max-width: 768px) 50vw,70vw' />
+              <Image fill={true} src={src} alt={title} sizes='(max-width: 768px) 600px,100vw' />
             </div>
           ))
         }
