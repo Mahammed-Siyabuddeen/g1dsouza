@@ -13,7 +13,7 @@ function Footer() {
                 <div className={style.footer_logo_section}>
                     <div className={style.footer_page_logo}>
                         <div>
-                            <Image src={'/images/Joseph_Digital_Logo (2).png'} alt='josephstudio' width={200} height={150} />
+                            <Image src={'/images/Joseph_Digital_Logo_footer.png'} alt='josephstudio' width={200} height={150} />
                         </div>
                     </div>
                     <div className={style.footer_links_logo}>

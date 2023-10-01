@@ -18,7 +18,7 @@ function Header() {
   return (
     <div className={style.headerContainer}>
       <div className={style.headerLeft}>
-        <Image src={'/images/Joseph_Digital_Logo (2).png'} width='200' height={100} alt='image' style={{ objectFit: 'fill' }} />
+        <Image src={'/images/Joseph_Digital_Logo (2).png'} width={200} height={100} alt='image' style={{ objectFit: 'fill' }} />
         <div className={style.headerMiddle}>
           <div className={style.HomeNavbarLink}><h3><Link href={'/'}>HOME</Link></h3></div>
           <div className={style.HomeNavbarLink}><h3><Link href={'/about'}>ABOUT</Link></h3></div>

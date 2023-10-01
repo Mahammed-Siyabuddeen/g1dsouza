@@ -47,7 +47,7 @@ function Video() {
       <div className={style.video_inner_container}>
         {
           videoArray.map(({ src, title }, index) => (
-            <iframe key={index} className={`${style.video_youtube_container} ${slideIndex === index + 1 ? style.video_youtube_active : ''}`} src={src} title={title} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+            <iframe allow={`geolocation 'self' https://www.youtube.com https://www.youtube.com`} key={index} className={`${style.video_youtube_container} ${slideIndex === index + 1 ? style.video_youtube_active : ''}`} src={src} title={title} frameBorder="0" allowFullScreen></iframe>
           ))
         }
       </div>
@@ -62,7 +62,7 @@ function Video() {
 
       </div>
       <div className={style.video_content}>
-        <p>Coming to the sector of Editing / Videography It's a preserving life beauty in one frame of motiing at a time<br/> <label color='gray'>#Baptism #Birthday #Events #pre- wedding #post wedding #wedding</label></p>
+        <p>Coming to the sector of Editing / Videography It&#39;s a preserving life beauty in one frame of motiing at a time<br/> <label color='gray'>#Baptism #Birthday #Events #pre- wedding #post wedding #wedding</label></p>
       </div>
     </div>
   )

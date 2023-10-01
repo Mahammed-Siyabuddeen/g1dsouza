@@ -65,7 +65,7 @@ function Category() {
                         <Paper key={index} className={style.MuiPaperDiv} elevation={4}  style={{ overflow: 'hidden' }}>
                             <div className={style.category_card}>
                                 <div className={style.category_card_imgDiv}>
-                                    <Image src={imgUrl} alt={title} fill={true} sizes='(max-width: 768px) 100vw,285px'/>
+                                    <Image src={imgUrl} alt={title} fill={true} sizes='(max-width: 768px) 300px,300px'/>
                                 </div>
                                 <div className={style.category_card_content}>
                                     <h2>{title}</h2>

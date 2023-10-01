@@ -6,8 +6,10 @@ function Drive() {
   return (
     <div className={style.drive_container}>
         <div className={style.drive_content}>
-            <h1><Link href={'https://drive.google.com/drive/folders/1cW9Q0OJNOFnShcYBXxL9OsfZ7Ybqt0-t'}>Click Here</Link></h1>
-            <Link href={'https://drive.google.com/drive/folders/1cW9Q0OJNOFnShcYBXxL9OsfZ7Ybqt0-t'}> <Image  src="/images/Jeevan D'Souza_google_drive.svg" width={80} height={80} alt="Jeevan D'Souza google drive" /></Link>
+            <h1><Link href={'https://drive.google.com/drive/folders/1cW9Q0OJNOFnShcYBXxL9OsfZ7Ybqt0-t'} aria-label="Jeevan D'Souza google drive">Click Here</Link></h1>
+            <Link href={'https://drive.google.com/drive/folders/1cW9Q0OJNOFnShcYBXxL9OsfZ7Ybqt0-t'}  aria-label="Jeevan D'Souza google drive">
+               <Image  src="/images/Jeevan D'Souza_google_drive.svg" width={80} height={80} alt="Jeevan D'Souza google drive" />
+               </Link>
            
         </div>
     </div>
