@@ -35,7 +35,7 @@ function Contact() {
                     <div>
                         <Instagram fontSize='large' />
                         <div className={style.textleft}>
-                            <p><Link href={'https://www.instagram.com/josephstudio/'}>josephstudio</Link></p>
+                            <p><Link href={'https://www.instagram.com/josephstudio_/'}>josephstudio_</Link></p>
                             <p><Link href={'https://www.instagram.com/joseph_frameworks/'}>joseph_frameworks</Link></p>
                             <p><Link href={'https://www.instagram.com/g1.d.souza/'}>g1.d.souza</Link></p>
                         </div>
