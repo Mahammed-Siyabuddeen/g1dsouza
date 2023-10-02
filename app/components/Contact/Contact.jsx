@@ -24,7 +24,10 @@ function Contact() {
                     <h2>WhatsApp</h2>
                     <div>
                         <WhatsApp fontSize='large' />
+                        <div className={style.textleft}>
+                        <p><a href={'tel:9448437519'}>9448437519</a></p>
                         <p><a href={'tel:9845637082'}>9845637082</a></p>
+                        </div>
                     </div>
                 </div>
                 <div className={style.instagram_contact}>

@@ -1,22 +1,33 @@
-.tabs_container{
+.tabs_container {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
     background-color: #a5a5a575;
 }
 
-.imgList{
+.imgList {
     width: 1000px;
-    max-height:800px ;
+    max-height: 800px;
     margin: 30px auto;
 
 }
-.portfolio_img{
+
+.portfolio_img {
     object-fit: cover;
 }
+
 @media only screen and (max-width:600px) {
-    .imgList{
+    .imgList {
+        width: 400px;
+        display: flex !important;
+        max-height: fit-content;
+        flex-direction: column;
+    }
+
+    .imgList>li {
+        display: block;
+        position: relative;
+        height: 350px !important;
         width: 350px;
-        display: block !important;
     }
 }

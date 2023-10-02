@@ -4,6 +4,7 @@ import Image from 'next/image'
 import React, { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import style from './style.module.css'
+import Link from 'next/link';
 
 function Category() {
     const data = [
@@ -54,6 +55,10 @@ function Category() {
 
     ]
     const router=useRouter()
+
+    const handleClick=(title)=>{
+        router.push(`/portfolio?category=${title}`)
+    }
     return (
         <div className={style.category_container}>
             <div className={style.category_title_div}>
@@ -63,7 +68,7 @@ function Category() {
                 {
                     data?.map(({ title, imgUrl }, index) => (
                         <Paper key={index} className={style.MuiPaperDiv} elevation={4}  style={{ overflow: 'hidden' }}>
-                            <div className={style.category_card}>
+                            <div className={style.category_card} onClick={()=>handleClick(title)}>
                                 <div className={style.category_card_imgDiv}>
                                     <Image src={imgUrl} alt={title} fill={true} sizes='(max-width: 768px) 300px,300px'/>
                                 </div>

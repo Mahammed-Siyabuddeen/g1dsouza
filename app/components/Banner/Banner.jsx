@@ -43,7 +43,10 @@ function Banner() {
   )
 }
 const imagesArray = [
-
+  {
+    src: '/images/background_img3.jpg',
+    title: 'wedding'
+  },
   {
     src: '/images/background_img.jpg',
     title: 'wedding'
@@ -56,10 +59,7 @@ const imagesArray = [
     src: '/images/background_img2.jpg',
     title: 'wedding'
   },
-  {
-    src: '/images/background_img3.jpg',
-    title: 'wedding'
-  },
+ 
   {
     src: '/images/background_img4.jpg',
     title: 'wedding'

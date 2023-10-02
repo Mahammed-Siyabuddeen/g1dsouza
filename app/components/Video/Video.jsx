@@ -6,10 +6,6 @@ function Video() {
 
   const videoArray = [
     {
-      src: 'https://www.youtube.com/embed/WhkZB1ZGQlg?si=l11-MTTmle72mRHH&amp;controls=0',
-      title: 'joseph digital studio nellyadi (reopening)'
-    },
-    {
       src: 'https://www.youtube.com/embed/WxjJFaqDFcQ?si=y2KDphNtXtWLOclC&amp;controls=0',
       title: 'BAPTISM OF EVANIA SHYJU'
     },
@@ -54,7 +50,7 @@ function Video() {
       <div>
         <div className={style.roundDiv}>
           {
-            Array.from({ length: 8}).map((item, index) => (
+            Array.from({ length: 7}).map((item, index) => (
               <div onClick={() => changeVideo(index)} key={index} className={`${style.round} ${slideIndex === index + 1 ? style.round_active : ''}`}></div>
             ))
           }
@@ -62,7 +58,7 @@ function Video() {
 
       </div>
       <div className={style.video_content}>
-        <p>Coming to the sector of Editing / Videography It&#39;s a preserving life beauty in one frame of motiing at a time<br/> <label color='gray'>#Baptism #Birthday #Events #pre- wedding #post wedding #wedding</label></p>
+        <p>Coming to the sector of Editing / Videography It&#39;s a preserving life beauty in one frame of motioning at a time<br/> <label color='gray'>#Baptism #Birthday #Events #pre- wedding #post wedding #wedding</label></p>
       </div>
     </div>
   )
