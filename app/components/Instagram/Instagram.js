@@ -14,7 +14,7 @@ function Instagram() {
     return (
         <div>
             <div onClick={handleClick}>
-                <Image src={'/images/josephstudio_instagram.svg'} alt='josephstudio_instagram' width={40} height={65} />
+                <Image src={'/images/josephstudio_instagram.svg'} alt='josephstudio_instagram' width={40} height={50} />
             </div>
             <Popup id={id} open={open} anchor={anchor}>
                 <PopupBody>

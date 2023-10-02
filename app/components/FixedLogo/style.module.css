@@ -1,0 +1,6 @@
+.fixed_logo_container{
+    position: fixed;
+    bottom: 7%;
+    right: 2%;
+    width: 40px;
+}

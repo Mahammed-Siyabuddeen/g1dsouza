@@ -2,6 +2,7 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import Header from './components/Header/Header'
 import Footer from './components/footer/Footer'
+import FixedLogo from './components/FixedLogo/FixedLogo'
 
 
 export const metadata = {
@@ -30,6 +31,7 @@ export default function RootLayout({ children }) {
       <body>
         <Header />
         {children}
+        <FixedLogo/>
         <Footer />
       </body>
     </html>
