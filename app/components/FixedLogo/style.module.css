@@ -1,7 +1,7 @@
 .fixed_logo_container{
     position: fixed;
-    bottom: 7%;
-    right: 2%;
+    bottom: 11%;
+    right: 3%;
     width: 40px;
     z-index: 999;
 }
