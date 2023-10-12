@@ -18,7 +18,7 @@ function About() {
       <div className={style.about_inner_container}>
         <div className={style.about_profile_left}>
           <div className={style.about_profile_left_img}>
-            <Image src={'/images/id profile.jpg'} alt='jeevan dsouza' width={350} height={350} />
+            <Image loading='eager' src={'/images/id profile.jpg'} alt='jeevan dsouza' width={350} height={350} />
           </div>
           <div className={style.about_profile_left_content}>
             <h2>g1.d.souza</h2>
