@@ -29,7 +29,10 @@
 .menu_icon_container{
     display: none;
 }
-
+.bottom_navigation_container{
+    z-index: 99999;
+    display: none;
+}
 @media only screen  and (max-width:600px) {
     .menu_icon_container{
         display: block;
@@ -43,5 +46,8 @@
     }
     .headerLeft{
         flex: 60%;
+    }
+    .bottom_navigation_container{
+        display: block;
     }
 }

@@ -26,7 +26,7 @@ function Video() {
       title: 'Engagement highlights '
     },
     {
-      src:'https://www.youtube.com/embed/Ki0DmqDzFzA?si=J9zFS-MFHR_yd0lv&amp;controls=0',
+      src:'https://www.youtube.com/embed/xzR0bnjoNHc?si=LCaWr0qsBdafYryb&amp;controls=0',
       title: 'Christian wedding highlights manglore '
     },
     {
